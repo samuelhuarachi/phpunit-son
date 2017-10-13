@@ -1,0 +1,18 @@
+{
+    "name": "f15/phpunitson",
+    "authors": [
+        {
+            "name": "Samuel Gomes Huarachi",
+            "email": "samuel.huarachi@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "SON\\": "src/"
+        }
+    }
+}
